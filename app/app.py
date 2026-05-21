@@ -4,6 +4,9 @@ os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 import streamlit as st
 import requests
 
+# Backend API URL
+API_URL = "https://returniq-ai-return-prediction-backend.onrender.com/predict"
+
 # ══════════════════════════════════════════════════════════════
 # PAGE CONFIG
 # ══════════════════════════════════════════════════════════════
