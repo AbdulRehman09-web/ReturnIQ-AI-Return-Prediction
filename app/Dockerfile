@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Move to frontend folder
-WORKDIR /app/app
+WORKDIR /app
 
 # Expose Render port
 EXPOSE 10000
