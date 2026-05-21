@@ -1,3 +1,5 @@
 *.pkl filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.h5 filter=lfs diff=lfs merge=lfs -text
+models/best_model_RandomForest.pkl filter=lfs diff=lfs merge=lfs -text
+models/best_classification_model_RandomForest.pkl filter=lfs diff=lfs merge=lfs -text
